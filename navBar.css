@@ -1,0 +1,120 @@
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1441px;
+    height: 100%;
+    margin: auto;
+}
+
+.sectionHeader {
+    width: 1441px;
+    height: 587px;
+    background: var(--purple-bg);
+}
+
+.barraNav {
+    position: relative;
+    width: 1169.14px;
+    height: 44px;
+    right: 135px;
+    left: 136px;
+    top: 64px;
+    display: grid;
+    grid-template-areas: "title navegacao barraPesquisa";
+    align-items: center;
+}
+
+.title {
+    grid-area: title;
+    display: inline-block;
+}
+
+.navegacao {
+    grid-area: navegacao;
+    margin-left: 212px;
+    width: 348px;
+}
+
+.navegacao ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.navegacao ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navegacao li a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.navegacao span {
+    color: var(--green);
+    width: 17px;
+    height: 2px;
+    margin-right: 5px;
+}
+
+.barAsk {
+    grid-area: barraPesquisa;
+    margin-left: 151px;
+    width: 301px;
+    display: flex;
+}
+
+.barAsk input{
+    width: 230px;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--light-purple);
+    border-radius: 4px 0 0 4px;
+    background-color: var(--dark-bg);
+    padding: 14px 84.65px 14px 25.65px;
+}
+
+.barAsk button {
+    width: 60px;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 0 4px 4px 0;
+    background-color: var(--button-bg);
+}
+
+.barAsk input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--light-purple);
+}

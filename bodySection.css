@@ -1,0 +1,164 @@
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    width: 1441px;
+    height: 1196px;
+    display: grid;
+    grid-template-areas: "sidepost1 sidepost2"
+    "bottompost bottompost";
+    background: var(--light-purple);
+}
+
+.sidepost-1 {
+    grid-area: sidepost1;
+    position: relative;
+    width: 569px;
+    height: 546.09px;
+    margin-left: 136px;
+    top: 60px;
+    display: block;
+}
+#p1-sidepost1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+    margin-top: 15.97px;
+    margin-bottom: 15.97px;
+}
+
+#p2-sidepost1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+.sidepost-1 h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #290742;
+    margin-bottom: 15.97px;
+}
+
+
+.sidepost-2 {
+    grid-area: sidepost2;
+    position: relative;
+    width: 472px;
+    height: 414.55px;
+    top: 60px;
+}
+
+
+#box1sidepost2 {
+    height: 219px;
+}
+
+#box1sidepost2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.sidepost-2 h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #290742;
+
+    margin-bottom: 8px;
+}
+
+#separatorPost {
+    position: relative;
+    width: 470px;
+    height: 1px;
+    margin-top: 23.59px;
+    margin-bottom: 23.96px;
+    background: #F2E7FA;
+}
+
+#box2sidepost2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.bottompost {
+    grid-area: bottompost;
+    height: 458.54px;
+    margin-top: 63.79px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    margin-left: auto;
+    display: grid;
+    grid-template-areas: "botpost1 botpost2 botpost3";
+}
+
+.bottompost p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+.bottompost h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #290742;
+    margin-bottom: 8px;
+}
+
+#botpost1 {
+    grid-area: botpost1;
+    width: 370px;
+}
+
+#botpost2 {
+    grid-area: botpost2;
+    width: 370px;
+    margin-left: 30px;
+}
+
+#botpost3 {
+    grid-area: botpost3;
+    width: 370px;
+    margin-left: 30px;
+}
